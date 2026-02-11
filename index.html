@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmy</title>
+    <title>Sigma Filmy</title>
+
     <style>
         table {
             border-collapse: collapse;
@@ -18,173 +19,125 @@
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #e0e0e0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 
 <body>
 
-    <h2>Tabulka filmů</h2>
+<h2>Sigma / Tough Movie List 💪</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Jméno studenta</th>
-                <th>Obrázek filmu</th>
-                <th>Název filmu</th>
-                <th>Režisér</th>
-                <th>Hrají</th>
-                <th>Rok vydání</th>
-                <th>Hodnocení na ČSFD</th>
-                <th>Moje hodnocení</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- 1. film -->
-            <tr>
-                <td>Albert Jablons</td>
-                <td><img src="shawshank_redemption.jpg" alt="The Shawshank Redemption" width="100"></td>
-                <td>The Shawshank Redemption</td>
-                <td>Frank Darabont</td>
-                <td>Tim Robbins, Morgan Freeman</td>
-                <td>1994</td>
-                <td>91%</td>
-                <td>9.3/10</td>
-            </tr>
-            
-            <tr>
-                <td>Albert Jablonsky</td>
-                <td><img src="pulp_fiction.jpg" alt="Pulp Fiction" width="100"></td>
-                <td>Pulp Fiction</td>
-                <td>Quentin Tarantino</td>
-                <td>John Travolta, Uma Thurman</td>
-                <td>1994</td>
-                <td>94%</td>
-                <td>8.9/10</td>
-            </tr>
-            
-            <tr>
-                <td>Albert Jablonsky</td>
-                <td><img src="dark_knight.jpg" alt="The Dark Knight" width="100"></td>
-                <td>The Dark Knight</td>
-                <td>Christopher Nolan</td>
-                <td>Christian Bale, Heath Ledger</td>
-                <td>2008</td>
-                <td>94%</td>
-                <td>9/10</td>
-            </tr>
-            
-            <tr>
-                <td>Albert Jablonsky</td>
-                <td><img src="forrest_gump.jpg" alt="Forrest Gump" width="100"></td>
-                <td>Forrest Gump</td>
-                <td>Robert Zemeckis</td>
-                <td>Tom Hanks, Robin Wright</td>
-                <td>1994</td>
-                <td>72%</td>
-                <td>8.8/10</td>
-            </tr>
-            
-            <tr>
-                <td>Albert Jablonsky</td>
-                <td><img src="inception.jpg" alt="Inception" width="100"></td>
-                <td>Inception</td>
-                <td>Christopher Nolan</td>
-                <td>Leonardo DiCaprio, Ellen Page</td>
-                <td>2010</td>
-                <td>87%</td>
-                <td>8.8/10</td>
-            </tr>
-               <tr>
-                <td>Erik Diegel </td>
-                <td><img src="shawshank_redemption.jpg" alt="The Shawshank Redemption" width="100"></td>
-                <td>Matrix</td>
-                <td>Frank Darabont</td>
-                <td>Tim Robbins, Morgan Freeman</td>
-                <td>1994</td>
-                <td>91%</td>
-                <td>9.3/10</td>
-            </tr>
-               <tr>
-                <td>Erik Diegel</td>
-                <td><img src="shawshank_redemption.jpg" alt="The Shawshank Redemption" width="100"></td>
-                <td>Lord of the rings</td>
-                <td>Frank Darabont</td>
-                <td>Tim Robbins, Morgan Freeman</td>
-                <td>1994</td>
-                <td>91%</td>
-                <td>9.3/10</td>
-            </tr>
-               <tr>
-                <td>Erik Diegel</td>
-                <td><img src="shawshank_redemption.jpg" alt="The Shawshank Redemption" width="100"></td>
-                <td>Hobbit</td>
-                <td>Frank Darabont</td>
-                <td>Tim Robbins, Morgan Freeman</td>
-                <td>1994</td>
-                <td>91%</td>
-                <td>9.3/10</td>
-            </tr>
-            <tr>
-                <td>Frank Darabont</td>
-                <td><img src="shawshank_redemption.jpg" alt="The Shawshank Redemption" width="100"></td>
-                <td>Pelíšky</td>
-                <td>Frank Darabont</td>
-                <td>Tim Robbins, Morgan Freeman</td>
-                <td>1994</td>
-                <td>91%</td>
-                <td>9.3/10</td>
-            </tr>
-            
-            <tr>
-                <td>Quentin Tarantino</td>
-                <td><img src="pulp_fiction.jpg" alt="Pulp Fiction" width="100"></td>
-                <td>Na západní frontě klid</td>
-                <td>Quentin Tarantino</td>
-                <td>John Travolta, Uma Thurman</td>
-                <td>1994</td>
-                <td>94%</td>
-                <td>8.9/10</td>
-            </tr>
-            
-            <tr>
-                <td>Christopher Nolan</td>
-                <td><img src="dark_knight.jpg" alt="The Dark Knight" width="100"></td>
-                <td>Občanský průkaz</td>
-                <td>Christopher Nolan</td>
-                <td>Christian Bale, Heath Ledger</td>
-                <td>2008</td>
-                <td>94%</td>
-                <td>9/10</td>
-            </tr>
-            
-            <tr>
-                <td>Robert Zemeckis</td>
-                <td><img src="forrest_gump.jpg" alt="Forrest Gump" width="100"></td>
-                <td>James Bond</td>
-                <td>Robert Zemeckis</td>
-                <td>Tom Hanks, Robin Wright</td>
-                <td>1994</td>
-                <td>72%</td>
-                <td>8.8/10</td>
-            </tr>
-            
-            <tr>
-                <td>Christopher Nolan</td>
-                <td><img src="inception.jpg" alt="Inception" width="100"></td>
-                <td>Interstellar</td>
-                <td>Christopher Nolan</td>
-                <td>Leonardo DiCaprio, Ellen Page</td>
-                <td>2010</td>
-                <td>87%</td>
-                <td>8.8/10</td>
-            </tr>
-            <!-- ... -->
-            <!-- Pro další filmy stačí kopírovat a vkládat bloky podobné těmto dvěma příkladům. -->
-        </tbody>
-    </table>
+<table>
+    <thead>
+        <tr>
+            <th>Jméno studenta</th>
+            <th>Obrázek filmu</th>
+            <th>Název filmu</th>
+            <th>Režisér</th>
+            <th>Hrají</th>
+            <th>Rok</th>
+            <th>ČSFD</th>
+            <th>Moje hodnocení</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="fight_club.jpg" width="100"></td>
+            <td>Fight Club</td>
+            <td>David Fincher</td>
+            <td>Brad Pitt, Edward Norton</td>
+            <td>1999</td>
+            <td>90%</td>
+            <td>10/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="scarface.jpg" width="100"></td>
+            <td>Scarface</td>
+            <td>Brian De Palma</td>
+            <td>Al Pacino</td>
+            <td>1983</td>
+            <td>88%</td>
+            <td>9.5/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="john_wick.jpg" width="100"></td>
+            <td>John Wick</td>
+            <td>Chad Stahelski</td>
+            <td>Keanu Reeves</td>
+            <td>2014</td>
+            <td>86%</td>
+            <td>9/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="american_psycho.jpg" width="100"></td>
+            <td>American Psycho</td>
+            <td>Mary Harron</td>
+            <td>Christian Bale</td>
+            <td>2000</td>
+            <td>82%</td>
+            <td>9/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="taxi_driver.jpg" width="100"></td>
+            <td>Taxi Driver</td>
+            <td>Martin Scorsese</td>
+            <td>Robert De Niro</td>
+            <td>1976</td>
+            <td>92%</td>
+            <td>9.5/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="drive.jpg" width="100"></td>
+            <td>Drive</td>
+            <td>Nicolas Winding Refn</td>
+            <td>Ryan Gosling</td>
+            <td>2011</td>
+            <td>83%</td>
+            <td>8.8/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="the_godfather.jpg" width="100"></td>
+            <td>The Godfather</td>
+            <td>Francis Ford Coppola</td>
+            <td>Al Pacino, Marlon Brando</td>
+            <td>1972</td>
+            <td>95%</td>
+            <td>10/10</td>
+        </tr>
+
+        <tr>
+            <td>Julius</td>
+            <td><img src="joker.jpg" width="100"></td>
+            <td>Joker</td>
+            <td>Todd Phillips</td>
+            <td>Joaquin Phoenix</td>
+            <td>2019</td>
+            <td>88%</td>
+            <td>9.2/10</td>
+        </tr>
+
+    </tbody>
+</table>
 
 </body>
-
 </html>
